@@ -40,6 +40,7 @@ nav {
     border: none;
 }
 
+/* banner style */
 .banner-content {
     text-align: center;
     max-width: 937px;
@@ -54,4 +55,47 @@ nav {
     font-weight: 700px;
     font-size: 65px;
 
+}
+
+/* action-styli */
+
+.action-content {
+    background: rgb(245, 248, 255);
+}
+
+.action {
+    padding: 30px;
+    margin-left: 100px;
+    max-width: 500px;
+}
+
+
+.action-section {
+    margin-top: 112px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1340px;
+    align-items: center;
+
+}
+
+.action-section-image {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    padding: 30px;
+
+
+}
+
+.action-section-title {
+    font-weight: 700px;
+    font-size: 42px;
+    color: rgb(37, 36, 50);
+}
+
+.action-section-sub-title {
+    font-weight: 400px;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
 }
