@@ -7,9 +7,9 @@
 }
 
 .container {
-    */ background: rgb(245, 248, 255);
+    background: rgb(245, 248, 255);
+    max-width: 1500px;
 }
-
 
 header {
     background-image: url(./images/Hero-bg.png);
@@ -104,12 +104,11 @@ nav {
 
 .productive {
     margin-top: 150px;
-    /* background-color: bisque; */
     background-color: #e8ebff;
     border-radius: 20px;
     padding: 40px 60px;
     text-align: center;
-    max-width: 900px;
+    max-width: 1140px;
 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 
@@ -244,4 +243,46 @@ nav {
     color: #aaa;
     font-size: 13px;
     text-align: left;
+}
+
+/* focus-style */
+.focus-better {
+    margin-top: 150px;
+    padding: 100px;
+
+}
+
+.focus-section-content {
+    max-width: 1140px;
+    border-radius: 20px;
+    padding: 71px 150px 71px 150px;
+    height: 690px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.focus-section {
+    text-align: center;
+}
+
+.focus-section h1 {
+    font-weight: 700px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.focus-section p {
+    font-weight: 400px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.focus-image {
+    width: 800px;
+    height: 350px;
+    border-radius: 48px;
+    text-align: center;
+    margin: 80px 0px;
 }
